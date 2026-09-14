@@ -1,0 +1,11 @@
+accelerate==1.12.0
+datasets
+llmcompressor
+numpy==1.26.4
+peft
+scipy==1.16.3
+torch==2.9.1
+transformers==4.57.3
+trl
+unsloth==2025.12.8
+xformers==0.0.33.post2

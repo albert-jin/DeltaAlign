@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Experiment tracking, caches, and generated artifacts
+wandb/
+cache/
+data/
+outputs/
+results/
+logs/
+checkpoints/
+adapters/
+merged/
+
+# Model and array artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.npy
+*.npz
+
+# Raw generations and temporary files
+*.jsonl
+*.log
+*.tmp
